@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         Toast.makeText(this, "ItemClick" + position, Toast.LENGTH_SHORT).show();
     }
 
-
     class ListAdapter extends SlideDeleteListView.SlideBaseAdapter<ViewHolder>{
 
         private List<String> mDatas;
